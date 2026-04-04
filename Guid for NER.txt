@@ -1,0 +1,13 @@
+pip install -r .\req.txt
+python -m spacy download en_core_web_sm
+Run -> python .\training.py
+    -> uvicorn app:app --reload
+Now Open ThenderClient or Postman ->
+	http://127.0.0.1:8000/predict 
+post it -> in Body ->
+{
+  "text": "Maize is good crop"
+}
+Like this->
+
+outPut.png
