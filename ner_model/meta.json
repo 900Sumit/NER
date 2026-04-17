@@ -18,6 +18,7 @@
   },
   "labels":{
     "ner":[
+      "CHEMICAL",
       "CROP",
       "DISEASE",
       "SYMPTOM"
